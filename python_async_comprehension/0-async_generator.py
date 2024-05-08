@@ -8,7 +8,7 @@ Sand 10. Use the random module.
 """
 import asyncio
 from random import uniform
-from typing import AsyncIterator, AsyncGenerator
+from typing import Generator
 
 
 async def async_generator() -> Generator[float, None, None]:
