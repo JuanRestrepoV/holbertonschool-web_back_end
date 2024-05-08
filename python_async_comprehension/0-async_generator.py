@@ -10,7 +10,7 @@ import asyncio
 import random
 
 
-async def async_generator() -> float:
+async def async_generator():
     """
     No arguments
     """
