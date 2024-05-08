@@ -8,12 +8,12 @@ Sand 10. Use the random module.
 """
 import asyncio
 import random
+from typing import AsyncIterator
 
-
-async def async_generator() -> float:
+async def async_generator() -> AsyncIterator[float]:
     """
     No arguments
     """
-    for _ in range (0, 10):
+    for _ in range(10):
         await asyncio.sleep(1)
         yield random.uniform(0, 10)
