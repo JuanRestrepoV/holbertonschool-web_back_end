@@ -10,6 +10,7 @@ import asyncio
 import random
 from typing import AsyncIterator
 
+
 async def async_generator() -> AsyncIterator[float]:
     """
     No arguments
