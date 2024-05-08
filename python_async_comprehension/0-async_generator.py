@@ -11,7 +11,7 @@ from random import uniform
 from typing import AsyncIterator, AsyncGenerator
 
 
-async def async_generator() -> AsyncIterator[ AsyncGenerator[int, None] ]:
+async def async_generator() -> AsyncIterator[ AsyncGenerator[float, None, None] ]:
     """
     No arguments
     """
