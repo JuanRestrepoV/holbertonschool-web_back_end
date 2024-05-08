@@ -7,8 +7,6 @@ that takes an integer max_delay and
 returns a asyncio.Task
 """
 import asyncio
-from typing import List
-import random
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
