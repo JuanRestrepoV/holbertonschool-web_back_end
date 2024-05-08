@@ -7,7 +7,7 @@ Sa random number between 0
 Sand 10. Use the random module.
 """
 import asyncio
-import random
+from random import random, uniform
 from typing import AsyncIterator
 
 
@@ -17,4 +17,4 @@ async def async_generator() -> AsyncIterator[float]:
     """
     for _ in range(10):
         await asyncio.sleep(1)
-        yield random.uniform(0, 10)
+        yield uniform(0, 10)
