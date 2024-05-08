@@ -15,6 +15,12 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
+    """Args:
+        n (int)
+        max_delay (int)
+    Returns:
+        List[float]
+    """
     sorted_list = []
     for _ in range(n):
         sorted_list.append(wait_random(max_delay))
