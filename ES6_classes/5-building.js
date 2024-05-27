@@ -1,12 +1,10 @@
 export default class Building{
-
 	constructor(sqft) {
     if (new.target !== Building) {
       this.evacuationWarningMessage();
     }
-    this.sqft = sqft;
+  	this.sqft = sqft;
   }
-
 
 	get sqft() {
 		return this._sqft;
