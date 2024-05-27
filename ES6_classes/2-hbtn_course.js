@@ -32,11 +32,9 @@ export default class HolbertonCourse {
   }
 
   set students(val) {
-    if (typeof val == 'object') {
-      this._students = val;
-    }
-    else {
+    if (typeof val !== 'object') {
       throw TypeError('Students must be an object');
     }
+    this._students = val;
   }
 }
