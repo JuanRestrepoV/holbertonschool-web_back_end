@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 This module contains a function that calculates the start and end indices
-for pagination, and a Server class to paginate a database of popular baby names.
+for pagination, and a Server class to paginate a database
+of popular baby names.
 """
 
 import csv
